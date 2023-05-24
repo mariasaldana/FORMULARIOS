@@ -4,7 +4,52 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+    <body>
+        <h1>Ingresar Datos Personales </h1>
+        <form>
+            <div>
+                <fieldset>
+                <legend>NOMBRES Y APELLIDOS</legend>
+              <label for="nombre">Nombre:</label><br>
+              <input type="text" id="nombre" name="nombre">
+                <br>
+              <label for="apellido">Apellido:</label><br>
+              <input type="text" id="apellido" name="apellido">
+                </fieldset>
+            </div>
+            <br>
+            <div>
+        <h3>Selecciona tu tipo de genero</h3>
+             <input type="radio" id="femenino" name="fav_language" value="FEMENINO">
+             <label for="femenino">Femenino</label><br>
+             <input type="radio" id="masculino" name="fav_language" value="MASCULINO">
+             <label for="masculino">Masculino</label><br>
+             <input type="radio" id="otro" name="fav_language" value="OTRO">
+             <label for="otro">Otro</label>
+            </div>
+            <br>
+            <div>
+         <h3>Ingresa tu edad:</h3>
+              <label for="Edad">Edad:</label><br>
+              <input type="text" id="Edad" name="Edad">
+            </div>
+            <div>
+            <br>
+            <h3>Jornada de estudio:</h3>
+               <label for="jornada">Escoger jornada de estudio:</label>
+                <select id="jornada" name="jornada">
+                <option value="matutina">matutina</option>
+                <option value="verpertina">vespertina</option>
+                <option value="nocturno">nocturno</option>
+                </select>
+            </div>
+            <br>
+            <label for="Cantidad que te gusta la carrera">Cantidad que te gusta la carrera</label>
+            <input type="range"id="Cantidad que te gusta la carrera" name="Cantidad que te gusta la carrera" value="100"
+            <br>
+            <br>
+            <input type="submit" value="ENVIAR">
+        </form>
 
 </body>
 </html>
